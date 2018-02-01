@@ -6,8 +6,7 @@ export default {
   },
   computed: {
     srcHref() {
-      return `https://github.com/tachyons-css/tachyons/blob/master/src/_${this
-        .to}.css`;
+      return `https://github.com/vtex-gocommerce/tachyons-ui/blob/master/src/_${this.to}.css`;
     },
   },
 };
@@ -19,7 +18,7 @@ export default {
     <svg
       viewBox="0 0 24 24"
       style="width:1em; height: 1em;"
-      class="dib v-btm f5 light-purple ml1 child">
+      class="dib v-btm f5 go-blue ml2 child">
       <path fill="currentColor" d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
     </svg>
   </a>

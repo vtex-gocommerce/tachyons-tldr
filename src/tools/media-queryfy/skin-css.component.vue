@@ -29,7 +29,7 @@ export default {
       </div>
     </transition>
 
-    <pre class="flex-auto ba bw1 b--persian-green ma0 code ph3 overflow-scroll">{{
+    <pre class="flex-auto ba bw1 b--go-blue ma0 code ph3 overflow-scroll">{{
       cssString
     }}</pre>
 

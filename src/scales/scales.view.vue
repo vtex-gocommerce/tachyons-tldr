@@ -24,10 +24,7 @@ export default {
     OpacitySection,
   },
   mounted() {
-    const locations = R.compose(
-      R.map(n => n.$el.getBoundingClientRect().top),
-      R.values,
-    )(this.$refs);
+    const locations = R.compose(R.map(n => n.$el.getBoundingClientRect().top), R.values)(this.$refs);
     const threshold = window.innerHeight * 0.25;
 
     window.addEventListener('scroll', () => {
@@ -63,10 +60,7 @@ export default {
   methods: {
     ...mapMutations('scales', ['selectScaleCategory']),
     updateScrollSpy(locations, threshold, scrollY) {
-      const idx = R.findIndex(
-        location => Math.abs(location - scrollY) < threshold,
-        locations,
-      );
+      const idx = R.findIndex(location => Math.abs(location - scrollY) < threshold, locations);
       if (idx > -1) this.selectScaleCategory(idx);
     },
     goTo(category) {
@@ -85,7 +79,7 @@ export default {
   <div>
     <div class="mw8 center flex">
 
-      <section-menu class="dn db-l mr5"
+      <section-menu class="dn db-l db-xl mr9"
         :active-index="activeCategoryIndex">
         <section-menu-item
           v-for="category in categories"
@@ -98,28 +92,28 @@ export default {
 
       <div class="w-100 w-90-l">
         <spacing-section data-section-index="0" ref="Spacing"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :spacingScale="spacingScale" />
         <TypographySection data-section-index="1" ref="Typography"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :typeScale="typeScale"
           :fontWeight="fontWeight" />
         <widths-section data-section-index="2" ref="Widths"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :widths="widths"
           :maxWidths="maxWidths" />
         <heights-section data-section-index="3" ref="Heights"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :heights="heights" />
         <border-section data-section-index="4" ref="Border"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :borderRadius="borderRadius"
           :borderWidths="borderWidths" />
         <shadow-section data-section-index="5" ref="Shadow"
-          class="pt4 mb6"
+          class="pt2 mb10"
           :shadowScale="shadowScale" />
         <opacity-section data-section-index="6" ref="Opacity"
-          class="pt4 mb7"
+          class="pt2 mb10"
           :opacityScale="opacityScale" />
       </div>
     </div>

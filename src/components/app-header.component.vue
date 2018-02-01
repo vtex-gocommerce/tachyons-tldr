@@ -20,11 +20,11 @@ export default {
 
 <template>
   <header class="flex">
-    <h1 class="tc f4 mv0 watermelon">
-      <a class="color-inherit link dim"
-        href="https://github.com/winkerVSbecks/tachyons-tldr"
+    <h1 class="tc f4 mv0 go-blue">
+      <a class="go-blue link dim"
+        href="https://github.com/vtex-gocommerce/tachyons-tldr"
         target="blank">
-        tachyons tldr
+        GoCommerce Tachyons
       </a>
       <small class="fw2 mid-gray">{{ version }}</small>
     </h1>
@@ -33,23 +33,23 @@ export default {
 
     <div>
       <navigation>
-        <nav-link class="mr3"
+        <nav-link class="mr5"
           to="/">
           Classes
         </nav-link>
-        <nav-link class="mr3"
+        <nav-link class="mr5"
           to="/scales">
           Scales
         </nav-link>
-        <nav-link class="mr3"
+        <nav-link class="mr5"
           to="/palette">
           Palette
         </nav-link>
-        <nav-link to="/tools">
+        <!-- <nav-link to="/tools">
           Tools
-        </nav-link>
+        </nav-link> -->
       </navigation>
-      <animated-line class="watermelon"
+      <animated-line class="go-blue"
         :size="64"
         :location="navIndicatorLocation" />
     </div>

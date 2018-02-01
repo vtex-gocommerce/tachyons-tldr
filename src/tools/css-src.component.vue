@@ -29,14 +29,14 @@ export default {
       </div>
     </transition>
 
-    <pre class="flex-auto ba bw1 b--persian-green ma0 code ph3 overflow-scroll">{{
+    <pre class="flex-auto ba bw1 b--go-blue ma0 code ph3 overflow-scroll">{{
       cssString
     }}</pre>
 
     <clipboard-button
       :text="cssString"
       @copy="onCopy"
-      class="bn white bg-persian-green f6"
+      class="bn white bg-go-blue f6"
     />
 
   </div>

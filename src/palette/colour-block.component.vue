@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-  <div class="pa3"
+  <div class="pa6"
     :style="blockStyles">
     <b class="db truncate f6 mb1">{{ name }}</b>
     <code class="db f6 truncate">{{ colour.value }}</code>

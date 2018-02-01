@@ -17,9 +17,9 @@ export default {
   <div>
     <div class="mw8 center">
 
-      <h2>Solid</h2>
-      <div class="mb5 flex flex-wrap">
-        <colour-block class="w-50 w-33-m w-25-l"
+      <h2 class="near-black">Solid</h2>
+      <div class="mb6 flex flex-wrap">
+        <colour-block class="w-50 w-33-m w-25-l w-25-xl"
           v-for="(colour, name) in solidColours"
           :colour="colour"
           :key="name"

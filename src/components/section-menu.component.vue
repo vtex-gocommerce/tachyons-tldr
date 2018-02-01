@@ -22,7 +22,7 @@ export default {
         <slot />
       </ul>
       <div>
-        <div class="br b--washed-pink bw1 h2 swift-out an-t"
+        <div class="br b--go-blue bw1 h2 swift-out an-t"
           :style="{ transform: indicatorTransform }"/>
       </div>
     </div>

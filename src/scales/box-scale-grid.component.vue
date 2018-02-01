@@ -13,9 +13,9 @@ export default {
 
 <template>
   <div class="flex flex-wrap">
-    <div class="mr3 mb3"
+    <div class="mr5 mb3"
       v-for="(step, selector, index) in scale">
-      <div class="f6 code center flex items-center justify-center mb2"
+      <div class="f6 code center flex items-center justify-center mb3"
         :class="[step.classNames, selector]">
         .{{ selector }}
       </div>

@@ -16,30 +16,30 @@ export default {
 <template>
   <section>
     <src-link to="border-radius">
-      <h3 class="f5 mv0 black-70">Border Radius Scale</h3>
+      <h3 class="f5 mv0  near-black">Border Radius Scale</h3>
     </src-link>
-    <box-scale-grid class="mb5"
+    <box-scale-grid class="mb9"
       :scale="borderRadius.scale"
       show-value />
 
     <src-link to="border-radius">
-      <h3 class="f5 mv0 black-70">Border Radius Position</h3>
+      <h3 class="f5 mv0 near-black">Border Radius Position</h3>
     </src-link>
-    <p>Allows you to control the border radius position when paired with one of the a border scale classed.</p>
-    <box-scale-grid class="mb5"
+    <p class="gray">Allows you to control the border radius position when paired with one of the a border scale classed.</p>
+    <box-scale-grid class="mb9"
       :scale="borderRadius.positional" />
 
     <src-link to="border-widths">
-      <h3 class="f5 mv0 black-70">Border Width Scale</h3>
+      <h3 class="f5 mv0 near-black">Border Width Scale</h3>
     </src-link>
-    <box-scale-grid class="mb5"
+    <box-scale-grid class="mb9"
       :scale="borderWidths.scale"
       show-value />
 
     <src-link to="border-widths">
-      <h3 class="f5 mv0 black-70">Border Width Resets</h3>
+      <h3 class="f5 mv0 near-black">Border Width Resets</h3>
     </src-link>
-    <p>Allows you to set the border width, of a specific direction, to <code>0</code>.</p>
+    <p class="gray">Allows you to set the border width, of a specific direction, to <code>0</code>.</p>
     <box-scale-grid
       :scale="borderWidths.resets" />
   </section>

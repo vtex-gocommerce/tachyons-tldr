@@ -3,14 +3,6 @@ import { cssObj, groupedClasses, propNamesList, classNames } from './styles';
 import colours from './colours.json';
 import scales from './scales.json';
 
-const version = dependencies.tachyons.replace('^', 'v');
+const version = dependencies['@gocommerce/tachyons'].replace('^', 'v');
 
-export {
-  classNames,
-  cssObj,
-  groupedClasses,
-  propNamesList,
-  colours,
-  scales,
-  version,
-};
+export { classNames, cssObj, groupedClasses, propNamesList, colours, scales, version };

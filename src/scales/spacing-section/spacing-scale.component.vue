@@ -9,11 +9,7 @@ export default {
   },
   computed: {
     steps() {
-      return R.compose(
-        R.replace(/,(?=[^,]*$)/, ' &'),
-        R.join(', '),
-        R.values,
-      )(this.scale);
+      return R.compose(R.replace(/,(?=[^,]*$)/, ' &'), R.join(', '), R.values)(this.scale);
     },
   },
   methods: {
@@ -35,7 +31,7 @@ export default {
 
 <template>
   <div>
-    <div class="f6 fw5 code mb3">
+    <div class="f6 fw5 code mb5">
       {{ steps }}
     </div>
 

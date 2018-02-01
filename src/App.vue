@@ -21,9 +21,7 @@ export default {
     $route(to, from) {
       const toIndex = to.meta.index;
       const fromIndex = from.meta.index;
-      this.transitionName = (
-        toIndex < fromIndex ? 'slide-right' : 'slide-left'
-      );
+      this.transitionName = toIndex < fromIndex ? 'slide-right' : 'slide-left';
     },
   },
 };
@@ -33,7 +31,7 @@ export default {
   <div class="black-70 sans-serif">
 
     <div class="ph3">
-      <app-header class="mt5 mb6 mw8 center"
+      <app-header class="mv9 mw8 center"
         :version="version" />
     </div>
 

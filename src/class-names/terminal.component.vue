@@ -12,19 +12,25 @@ export default {
     }, 800);
   },
   methods: {
-    onActivate(e) { this.$emit('activate', e); },
-    onDeactivate(e) { this.$emit('deactivate', e); },
-    onExecute(e) { this.$emit('execute', e); },
+    onActivate(e) {
+      this.$emit('activate', e);
+    },
+    onDeactivate(e) {
+      this.$emit('deactivate', e);
+    },
+    onExecute(e) {
+      this.$emit('execute', e);
+    },
   },
 };
 </script>
 
 <template>
-  <div class="br2 ba b--black-20 bg-white animated-shadow"
+  <div class="br2 ba b--ash-blue bg-white animated-shadow"
     :class="{ active: isActive }">
-    <div class="code flex items-center ph3">
+    <div class="code flex items-center ph5">
 
-      <span class="b pv3 pr3" aria-hidden="true">
+      <span class="b pv5 pr3 near-black" aria-hidden="true">
         $ <span style="color: #00847a;">{{ command }}</span>
       </span>
 
