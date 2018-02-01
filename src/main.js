@@ -10,7 +10,7 @@ polyfill();
 
 sync(store, router);
 
-require('tachyons');
+require('@gocommerce/tachyons');
 require('./index.css');
 
 /* eslint-disable no-new */
