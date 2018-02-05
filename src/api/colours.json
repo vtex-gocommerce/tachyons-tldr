@@ -1,5 +1,13 @@
 {
   "solid": {
+    "White": {
+      "value": "#ffffff",
+      "negative": "#090909"
+    },
+    "Black": {
+      "value": "#000000",
+      "negative": "#f8f8f8"
+    },
     "Invisible Blue": {
       "value": "#F3F4F9",
       "negative": "#13120e"
@@ -52,18 +60,6 @@
       "value": "#f5faff",
       "negative": "#110d09"
     },
-    "White": {
-      "value": "#ffffff",
-      "negative": "#090909"
-    },
-    "Blue": {
-      "value": "#368df7",
-      "negative": "#520900"
-    },
-    "Heavy Blue": {
-      "value": "#2a6dbf",
-      "negative": "#fff099"
-    },
     "Light Marine": {
       "value": "#3d5980",
       "negative": "#e6c9a1"
@@ -77,16 +73,16 @@
       "negative": "#e4d8c6"
     },
     "Green": {
-      "value": "#00cca0",
-      "negative": "#930017"
+      "value": "#09DD04",
+      "negative": "#8a0096"
     },
     "Washed Green": {
       "value": "#e6fff9",
       "negative": "#1d090e"
     },
     "Red": {
-      "value": "#ff8080",
-      "negative": "#004445"
+      "value": "#FF3D44",
+      "negative": "#002826"
     },
     "Washed Red": {
       "value": "#fff2f2",
@@ -100,5 +96,8 @@
       "value": "#fffbf2",
       "negative": "#090d13"
     }
+  },
+  "alpha": {
+    "Transparent": "rgba(0,0,0,0)"
   }
 }
