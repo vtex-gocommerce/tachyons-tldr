@@ -77,9 +77,9 @@ export default {
 
 <template>
   <div>
-    <div class="mw8 center flex">
+    <div class="mw8 mt12 center flex">
 
-      <section-menu class="dn db-l db-xl mr9"
+      <section-menu class="dn db-l db-xl mr12"
         :active-index="activeCategoryIndex">
         <section-menu-item
           v-for="category in categories"
@@ -90,30 +90,30 @@ export default {
         </section-menu-item>
       </section-menu>
 
-      <div class="w-100 w-90-l">
+      <div class="w-100 w-80-l">
         <spacing-section data-section-index="0" ref="Spacing"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :spacingScale="spacingScale" />
         <TypographySection data-section-index="1" ref="Typography"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :typeScale="typeScale"
           :fontWeight="fontWeight" />
         <widths-section data-section-index="2" ref="Widths"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :widths="widths"
           :maxWidths="maxWidths" />
         <heights-section data-section-index="3" ref="Heights"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :heights="heights" />
         <border-section data-section-index="4" ref="Border"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :borderRadius="borderRadius"
           :borderWidths="borderWidths" />
         <shadow-section data-section-index="5" ref="Shadow"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :shadowScale="shadowScale" />
         <opacity-section data-section-index="6" ref="Opacity"
-          class="pt2 mb10"
+          class="pt5 mb14"
           :opacityScale="opacityScale" />
       </div>
     </div>

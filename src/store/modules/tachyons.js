@@ -3,8 +3,8 @@ import { groupedClasses, colours, scales, version, classNames } from '../../api'
 import * as utils from '../../utils';
 
 const classNamesLens = R.lensPath([1, 'classNames']);
-const brClassNames = custom => `h3 bg-light-gray ba b--gray ${custom}`;
-const bwClassNames = custom => `h3 br b--gray ${custom}`;
+const brClassNames = custom => `h12 ba b--navy-60 ${custom}`;
+const bwClassNames = custom => `h12 br b--navy ${custom}`;
 
 /**
  * initial state
@@ -83,7 +83,7 @@ const getters = {
         [utils.testFirst(/^vh-\d+/), R.always('vh')],
       ]),
     ),
-    R.map(R.set(classNamesLens, 'w3 bg-light-gray bb b--go-blue bw1')),
+    R.map(R.set(classNamesLens, 'w3 bg-light-gray bb b--blue bw1')),
     R.toPairs,
     R.map(R.objOf('value')),
     R.path(['scales', 'heights']),
@@ -97,7 +97,7 @@ const getters = {
     R.path(['scales', 'opacity']),
   ),
 
-  shadowScale: R.compose(R.fromPairs, R.map(R.set(classNamesLens, 'w4 h4')), R.toPairs, R.path(['scales', 'shadow'])),
+  shadowScale: R.compose(R.fromPairs, R.map(R.set(classNamesLens, 'w4 h14')), R.toPairs, R.path(['scales', 'shadow'])),
 
   maxWidths: R.path(['scales', 'maxWidths']),
 };

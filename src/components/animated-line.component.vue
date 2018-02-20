@@ -26,7 +26,7 @@ export default {
     lineStyles() {
       return {
         transform: `translateX(${this.location})`,
-        height: '4px',
+        height: '5px',
         width: this.size,
       };
     },
@@ -40,7 +40,7 @@ export default {
 </script>
 
 <template>
-  <svg class="db swift-out an-t w3"
+  <svg class="db swift-out an-t"
     :style="lineStyles"
     viewBox="0 0 64 2"
     preserveAspectRatio="none">

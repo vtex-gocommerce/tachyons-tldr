@@ -26,12 +26,12 @@ export default {
 </script>
 
 <template>
-  <div class="br2 ba b--ash-blue bg-white animated-shadow"
+  <div class="mt12 br3 ba b--navy-60 bg-white"
     :class="{ active: isActive }">
-    <div class="code flex items-center ph5">
+    <div class="code flex items-center ph4">
 
-      <span class="b pv5 pr3 near-black" aria-hidden="true">
-        $ <span style="color: #00847a;">{{ command }}</span>
+      <span class="b pv4 pr3 blue" aria-hidden="true">
+        $ {{ command }}
       </span>
 
       <label is="field-label"
@@ -42,7 +42,7 @@ export default {
 
       <text-field
         ref="input"
-        class="flex-auto code pv3 ml3"
+        class="flex-auto code pv3 ml3 gc-navy"
         placeholder="search for a CSS property name or class name"
         type="search"
         id="query"
@@ -53,7 +53,6 @@ export default {
         @focus.native="onActivate" />
 
       <slot name="flag" />
-
     </div>
   </div>
 </template>

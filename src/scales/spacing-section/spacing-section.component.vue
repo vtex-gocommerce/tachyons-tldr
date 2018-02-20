@@ -15,9 +15,9 @@ export default {
 <template>
   <section>
     <src-link to="spacing">
-      <h3 class="f5 mv0 near-black">Spacing Scale</h3>
+      <h3 class="f3 mv0 navy">Spacing Scale</h3>
     </src-link>
-    <spacing-scale class="b mt6"
+    <spacing-scale class="b mt2"
       :scale="spacingScale" />
   </section>
 </template>

@@ -35,7 +35,7 @@ export default {
 <template>
   <div class="flex">
     <div class="mr3">
-      <div class="tr f6 h1 mb4 mid-gray lh-solid fw3 code"
+      <div class="tr f2 navy h1 mb5 lh-solid fw3 code"
         v-for="(value, selector) in scale">
         .{{ selector }} ({{ value }})
       </div>
@@ -45,7 +45,7 @@ export default {
       v-bind:css="false"
       @enter="enter"
       class="flex-auto">
-      <div class="tc h1 origin-0-0 bg-light-gray mr3 mb4 br b--go-blue bw1"
+      <div class="tc h4 origin-0-0 bg-navy-40 mr3 mb2 br b--blue bw1"
         v-for="(value, selector, index) in scale"
         :key="index"
         :class="selector"

@@ -31,7 +31,7 @@ export default {
 
 <template>
   <div>
-    <div class="f6 fw5 code mb5">
+    <div class="f2 lh-copy navy fw5 code mb4">
       {{ steps }}
     </div>
 
@@ -42,7 +42,7 @@ export default {
       class="flex debug-grid-green">
       <div v-for="(value, index) in scale"
         :key="index"
-        class="h4 bg-mid-gray white mr4 origin-0-0"
+        class="h14 bg-navy white mr4 origin-0-0"
         :style="{ width: value }">
       </div>
     </transition-group>

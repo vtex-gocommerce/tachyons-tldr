@@ -23,12 +23,12 @@ export default {
         opacity: {
           value: [0, 1],
           duration: 600,
-          delay: 1200 + ((this.size - el.dataset.index) * 50),
+          delay: 1200 + (this.size - el.dataset.index) * 50,
         },
         translateY: {
           value: [25, 0],
           duration: 400,
-          delay: 1200 + ((this.size - el.dataset.index) * 50),
+          delay: 1200 + (this.size - el.dataset.index) * 50,
         },
         onComplete: done,
       });
@@ -55,7 +55,7 @@ export default {
           >A</td>
         </transition-group>
         <tr class="bg-white">
-          <td class="tc w3 pt2 mid-gray fw2 code f6 v-btm"
+          <td class="tc w3 pt2 navy fw2 code f2 v-btm"
             v-for="(value, selector) in scale">
             .{{ selector }} ({{ value }})
           </td>

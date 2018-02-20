@@ -16,25 +16,25 @@ export default {
 <template>
   <section>
     <src-link to="widths">
-      <h3 class="f5 mv0 near-black">Width Scale</h3>
+      <h3 class="f3 mv0 navy">Width Scale</h3>
     </src-link>
-    <width-scale-grid class="mb9"
+    <width-scale-grid class="mb12"
       :scale="widths.scale" />
 
     <src-link to="widths">
-      <h3 class="f5 mv0 near-black">Width – Thirds</h3>
+      <h3 class="f3 mv0 navy">Width – Thirds</h3>
     </src-link>
-    <width-scale-grid class="mb9"
+    <width-scale-grid class="mb12"
       :scale="widths.third" />
 
     <src-link to="widths">
-      <h3 class="f5 mv0 near-black">Width – Percentage</h3>
+      <h3 class="f3 mv0 navy">Width – Percentage</h3>
     </src-link>
-    <width-scale-grid class="mb9"
+    <width-scale-grid class="mb12"
       :scale="widths.percent" />
 
     <src-link to="max-widths">
-      <h3 class="f5 mv0 near-black">Max Widths</h3>
+      <h3 class="f3 mv0 navy">Max Widths</h3>
     </src-link>
     <width-scale-grid
       :scale="maxWidths" />

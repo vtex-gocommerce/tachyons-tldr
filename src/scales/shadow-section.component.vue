@@ -1,23 +1,23 @@
 <script>
-import BoxScaleGrid from './box-scale-grid.component'
+import BoxScaleGrid from './box-scale-grid.component';
 
 export default {
   name: 'shadow-section',
   components: {
-    BoxScaleGrid
+    BoxScaleGrid,
   },
   props: {
-    shadowScale: Object
-  }
-}
+    shadowScale: Object,
+  },
+};
 </script>
 
 <template>
   <section>
     <src-link to="box-shadow">
-      <h3 class="f5 mv0 near-black">Shadow Scale</h3>
+      <h3 class="f3 mv0 navy">Shadow Scale</h3>
     </src-link>
-    <box-scale-grid
+    <box-scale-grid class="mb12"
       :scale="shadowScale" />
   </section>
 </template>

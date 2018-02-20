@@ -39,7 +39,7 @@ export default {
         :className="className"
         :key="className.name"
         :data-index="index"
-        :class="{ 'bg-light-silver': index % 2 !== 0 }" />
+        :class="{ 'bg-navy-20': index % 2 !== 0 }" />
     </transition-group>
   </div>
 </template>

@@ -17,7 +17,7 @@
     "api": "babel-node --presets=env,stage-2 src/api/generate-data/index.js"
   },
   "dependencies": {
-    "@gocommerce/tachyons": "1.0.2-gc.10",
+    "@gocommerce/tachyons": "1.0.2-gc.14",
     "animejs": "^2.0.1",
     "clipboard": "^1.6.1",
     "hello-color": "^1.0.1",

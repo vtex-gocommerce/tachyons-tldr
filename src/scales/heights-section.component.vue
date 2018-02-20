@@ -15,19 +15,19 @@ export default {
 <template>
   <section>
     <src-link to="heights">
-      <h3 class="f5 mv0 near-black">Height Scale</h3>
+      <h3 class="f3 mv0 navy">Height Scale</h3>
     </src-link>
-    <box-scale-grid class="mb9 items-start"
+    <box-scale-grid class="mb12 mt6 items-start"
       :scale="heights.scale" showValue />
 
     <src-link to="heights">
-      <h3 class="f5 mv0 near-black">Height – Parent Percentage</h3>
+      <h3 class="f3 mv0 navy">Height – Parent Percentage</h3>
     </src-link>
-    <box-scale-grid class="mb9 h5"
+    <box-scale-grid class="mb12 h14"
       :scale="heights.percent" />
 
     <src-link to="heights">
-      <h3 class="f5 mv0 near-black">Height – Viewport Percentage</h3>
+      <h3 class="f3 mv0 navy">Height – Viewport Percentage</h3>
     </src-link>
     <box-scale-grid
       :scale="heights.vh" />

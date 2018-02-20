@@ -33,7 +33,7 @@ export default {
 
       <label is="field-label"
         slot="flag"
-        class="ml3 pl3 pv3 pointer b bl b--silver gray">
+        class="ml3 pl3 pv3 pointer b bl b--navy-60 navy-80">
         <input type="checkbox"
           :checked="classNames.byClassName"
           @change="toggleSearchByClassName">

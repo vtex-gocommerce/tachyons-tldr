@@ -15,9 +15,9 @@ export default {
 <template>
   <section>
     <src-link to="opacity">
-      <h3 class="f5 mv0 near-black">Opacity Scale</h3>
+      <h3 class="f3 mv0 navy">Opacity Scale</h3>
     </src-link>
-    <opacity-scale
+    <opacity-scale class="mb12"
       :scale="opacityScale" />
   </section>
 </template>

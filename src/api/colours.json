@@ -1,103 +1,89 @@
 {
   "solid": {
-    "White": {
-      "value": "#ffffff",
-      "negative": "#090909"
-    },
-    "Black": {
-      "value": "#000000",
-      "negative": "#f8f8f8"
-    },
-    "Invisible Blue": {
-      "value": "#F3F4F9",
-      "negative": "#13120e"
-    },
-    "Ash Blue": {
-      "value": "#9FA6BF",
-      "negative": "#423c25"
-    },
-    "Go Blue": {
+    "Blue": {
       "value": "#4B71FC",
       "negative": "#2f0100"
     },
-    "Deep Blue": {
+    "Blue 80": {
+      "value": "#708FFF",
+      "negative": "#422a00"
+    },
+    "Blue 60": {
+      "value": "#91A9FF",
+      "negative": "#533e00"
+    },
+    "Blue 40": {
+      "value": "#BDCCFF",
+      "negative": "#483807"
+    },
+    "Blue 20": {
+      "value": "#EAEFFF",
+      "negative": "#1a1609"
+    },
+    "Navy": {
       "value": "#212E5F",
       "negative": "#d7ca9a"
     },
-    "Deepest Blue": {
-      "value": "#07133E",
-      "negative": "#f1e5ba"
+    "Navy 80": {
+      "value": "#7B83A1",
+      "negative": "#221d00"
     },
-    "Near Black": {
-      "value": "#3d3e40",
-      "negative": "#bbbab8"
+    "Navy 60": {
+      "value": "#9FA6BF",
+      "negative": "#423c25"
     },
-    "Dark Gray": {
-      "value": "#565759",
-      "negative": "#cdccca"
+    "Navy 40": {
+      "value": "#D7DBE7",
+      "negative": "#2d291d"
     },
-    "Mid Gray": {
-      "value": "#6e7073",
-      "negative": "#f6f4f0"
-    },
-    "Gray": {
-      "value": "#939699",
-      "negative": "#312e2c"
-    },
-    "Silver": {
-      "value": "#c4c8cc",
-      "negative": "#403c38"
-    },
-    "Light Gray": {
-      "value": "#dce1e6",
-      "negative": "#28231e"
-    },
-    "Light Silver": {
-      "value": "#f0f5fa",
-      "negative": "#15110d"
-    },
-    "Near White": {
-      "value": "#f5faff",
-      "negative": "#110d09"
-    },
-    "Light Marine": {
-      "value": "#3d5980",
-      "negative": "#e6c9a1"
-    },
-    "Marine": {
-      "value": "#25354d",
-      "negative": "#d3c3ac"
-    },
-    "Serious Black": {
-      "value": "#142032",
-      "negative": "#e4d8c6"
+    "Navy 20": {
+      "value": "#EFF1F9",
+      "negative": "#16140e"
     },
     "Green": {
-      "value": "#09DD04",
-      "negative": "#8a0096"
+      "value": "#39B54A",
+      "negative": "#68005e"
     },
-    "Washed Green": {
-      "value": "#e6fff9",
-      "negative": "#1d090e"
+    "Green Light": {
+      "value": "#E6FFEA",
+      "negative": "#1d091a"
+    },
+    "Yellow": {
+      "value": "#FFA721",
+      "negative": "#003dbc"
+    },
+    "Yellow Light": {
+      "value": "#FFF7E4",
+      "negative": "#081020"
     },
     "Red": {
       "value": "#FF3D44",
       "negative": "#002826"
     },
-    "Washed Red": {
-      "value": "#fff2f2",
-      "negative": "#091313"
+    "Red Light": {
+      "value": "#FFE8E8",
+      "negative": "#081b1c"
     },
-    "Yellow": {
-      "value": "#ffb100",
-      "negative": "#0035de"
+    "Black": {
+      "value": "#000000",
+      "negative": "#f8f8f8"
     },
-    "Washed Yellow": {
-      "value": "#fffbf2",
-      "negative": "#090d13"
+    "White": {
+      "value": "#ffffff",
+      "negative": "#090909"
     }
   },
   "alpha": {
-    "Transparent": "rgba(0,0,0,0)"
+    "Black 20": "rgba(0,0,0,.20)",
+    "Black 40": "rgba(0,0,0,.40)",
+    "Black 60": "rgba(0,0,0,.60)",
+    "Black 80": "rgba(0,0,0,.80)",
+    "Black 90": "rgba(0,0,0,.90)",
+    "White 20": "rgba(255,255,255,.20)",
+    "White 40": "rgba(255,255,255,.40)",
+    "White 60": "rgba(255,255,255,.60)",
+    "White 80": "rgba(255,255,255,.80)",
+    "White 90": "rgba(255,255,255,.90)",
+    "Transparent": "transparent"
   }
 }

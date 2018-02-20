@@ -12,21 +12,21 @@ export default {
   computed: {
     navIndicatorLocation() {
       const index = this.$store.state.route.meta.index;
-      return `${(64 + 16) * index}px`;
+      return `${(80 + 20) * index}px`;
     },
   },
 };
 </script>
 
 <template>
-  <header class="flex">
-    <h1 class="tc f4 mv0 go-blue">
-      <a class="go-blue link dim"
+  <header class="flex mv12">
+    <h1 class="tc f4 mv0">
+      <a class="blue link dim"
         href="https://github.com/vtex-gocommerce/tachyons-tldr"
         target="blank">
         GoCommerce Tachyons
       </a>
-      <small class="fw2 mid-gray">{{ version }}</small>
+      <small class="fw2 navy">{{ version }}</small>
     </h1>
 
     <div class="flex-auto"></div>
@@ -45,12 +45,9 @@ export default {
           to="/palette">
           Palette
         </nav-link>
-        <!-- <nav-link to="/tools">
-          Tools
-        </nav-link> -->
       </navigation>
-      <animated-line class="go-blue"
-        :size="64"
+      <animated-line class="blue"
+        :size="80"
         :location="navIndicatorLocation" />
     </div>
   </header>
